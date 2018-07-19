@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1073087-5bbd-433b-b747-0338f13a9acd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/allaboutscala-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_04/HelloWorld.scala" afterDir="false" />
+    <list default="true" id="c1073087-5bbd-433b-b747-0338f13a9acd" name="Default" comment="CH01 - Tut 01">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_05/HelloWorldMain.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloWorld.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloWorld.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_04/HelloWorld.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -35,15 +31,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HelloWorldMain.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_05/HelloWorldMain.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Evert De Boeck &lt;git@komkommer.be&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_04/HelloWorld.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_05/HelloWorldMain.scala" />
       </list>
     </option>
   </component>
@@ -102,7 +113,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AllAboutScala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AllAboutScala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="one" type="462c0819:PsiDirectoryNode" />
               <item name="tutorial_04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AllAboutScala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AllAboutScala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="one" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial_05" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.HelloWorldMain">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.allaboutscala.chapter.one.tutorial_04.HelloWorld" />
       <module name="allaboutscala" />
@@ -140,6 +169,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.allaboutscala.chapter.one.tutorial_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HelloWorldMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.chapter.one.tutorial_05.HelloWorldMain" />
+      <module name="allaboutscala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allaboutscala.chapter.one.tutorial_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,8 +225,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.HelloWorldMain" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorldMain" />
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
@@ -236,15 +281,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532034374878</updated>
-      <workItem from="1532034376251" duration="301000" />
+      <workItem from="1532034376251" duration="693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301000" />
+    <option name="totallyTimeSpent" value="693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="sbt" />
@@ -264,10 +310,10 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32946146" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32946146" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
       <window_info id="Learn" />
       <window_info anchor="right" id="Theme Preview" />
@@ -291,6 +337,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_05/HelloWorldMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
