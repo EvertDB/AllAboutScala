@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1073087-5bbd-433b-b747-0338f13a9acd" name="Default" comment="CH01 - Tut 01">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_06/HelloWorldWithArguments.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_07/HelloWorldWithArgumentsDebug.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorldWithArguments.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloWorldWithArguments.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_06/HelloWorldWithArguments.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorldWithArgumentsDebug.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_07/HelloWorldWithArgumentsDebug.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -74,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_04/HelloWorld.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_05/HelloWorldMain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_06/HelloWorldWithArguments.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_07/HelloWorldWithArgumentsDebug.scala" />
       </list>
     </option>
   </component>
@@ -163,6 +174,15 @@
             </path>
             <path>
               <item name="AllAboutScala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AllAboutScala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="one" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial_07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AllAboutScala" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -211,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloWorldWithArguments">
+  <component name="RunManager" selected="Application.HelloWorldWithArgumentsDebug">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.allaboutscala.chapter.one.tutorial_04.HelloWorld" />
       <module name="allaboutscala" />
@@ -242,6 +262,18 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.allaboutscala.chapter.one.tutorial_06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HelloWorldWithArgumentsDebug" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.chapter.one.tutorial_07.HelloWorldWithArgumentsDebug" />
+      <module name="allaboutscala" />
+      <option name="PROGRAM_PARAMETERS" value="firstArgument secondArgument thirdArgument" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allaboutscala.chapter.one.tutorial_07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,9 +323,11 @@
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.HelloWorldMain" />
       <item itemvalue="Application.HelloWorldWithArguments" />
+      <item itemvalue="Application.HelloWorldWithArgumentsDebug" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorldWithArgumentsDebug" />
         <item itemvalue="Application.HelloWorldWithArguments" />
         <item itemvalue="Application.HelloWorldMain" />
         <item itemvalue="Application.HelloWorld" />
@@ -345,16 +379,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532034374878</updated>
-      <workItem from="1532034376251" duration="950000" />
+      <workItem from="1532034376251" duration="1468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="950000" />
+    <option name="totallyTimeSpent" value="1468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="sbt" />
@@ -368,13 +401,13 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39915523" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32946146" />
       <window_info anchor="bottom" id="Version Control" weight="0.32946146" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -395,6 +428,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_07/HelloWorldWithArgumentsDebug.scala</url>
+          <line>6</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_04/HelloWorld.scala">
@@ -420,8 +465,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_06/HelloWorldWithArguments.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_07/HelloWorldWithArgumentsDebug.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
