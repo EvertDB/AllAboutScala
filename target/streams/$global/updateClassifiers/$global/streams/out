@@ -1088,16 +1088,16 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.9.0!scala-logging_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
-[debug] :: resolution report :: resolve 67ms :: artifacts dl 4ms
+[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.9.0!scala-logging_2.12.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] :: resolution report :: resolve 95ms :: artifacts dl 35ms
 [debug] 	report for default#allaboutscala$sources;0.1 compile produced in C:\Users\evert\source\repos\AllAboutScala\target\scala-2.12\resolution-cache\reports\default-allaboutscala$sources-compile.xml
 [debug] 	report for default#allaboutscala$sources;0.1 runtime produced in C:\Users\evert\source\repos\AllAboutScala\target\scala-2.12\resolution-cache\reports\default-allaboutscala$sources-runtime.xml
 [debug] 	report for default#allaboutscala$sources;0.1 test produced in C:\Users\evert\source\repos\AllAboutScala\target\scala-2.12\resolution-cache\reports\default-allaboutscala$sources-test.xml
@@ -1109,4 +1109,4 @@
 [debug] 	report for default#allaboutscala$sources;0.1 plugin produced in C:\Users\evert\source\repos\AllAboutScala\target\scala-2.12\resolution-cache\reports\default-allaboutscala$sources-plugin.xml
 [debug] 	report for default#allaboutscala$sources;0.1 pom produced in C:\Users\evert\source\repos\AllAboutScala\target\scala-2.12\resolution-cache\reports\default-allaboutscala$sources-pom.xml
 [debug] 	report for default#allaboutscala$sources;0.1 scala-tool produced in C:\Users\evert\source\repos\AllAboutScala\target\scala-2.12\resolution-cache\reports\default-allaboutscala$sources-scala-tool.xml
-[debug] 	resolve done (67ms resolve - 4ms download)
+[debug] 	resolve done (95ms resolve - 35ms download)
